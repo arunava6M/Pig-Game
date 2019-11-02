@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Pig Game</title>
+    <link rel="stylesheet" type="text/css" href="pigGame.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    
+    <div class="mainBox" >
+        <div class="playerBox active" id="player1" style="float:left">
+            <div class="playerName" id="player1name">PLAYER 1</div>
+            <div class="globalScore" id="player1GS">0</div>
+            <div class="currentScoreBox" id="player1CSB">
+                <div class="current">CURRENT SCORE</div>
+                <div class="currentScore" id="player1CS">0</div>
+            </div>
+        </div>
+        
+        <div class="playerBox deactive" id="player2" style="float:left">
+            <div class="playerName" id="player2name">PLAYER 2</div>
+            <div class="globalScore" id="player2GS">0</div>
+            <div class="currentScoreBox" id="player2CSB">
+                <div class="current">CURRENT SCORE</div>
+                <div class="currentScore" id="player2CS">0</div>
+            </div>
+        </div>
+            
+            <i class="material-icons button" id="newGame">add_to_queue</i>
+            <i class="material-icons button" id="rollDice">autorenew</i>
+            <i class="material-icons button" id="hold">lock</i>
+        
+    </div>
+    <img src="dice-2.png" class="dice noDice" />
+    <div></div>
+    <script src="pigGame.js"></script>
+</body>
+
+   
+
+</html>
