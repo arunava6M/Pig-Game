@@ -16,7 +16,7 @@ noDice();
                         //display the random number through dice
                         var query=document.querySelector('.dice');
                         query.style.display='block';
-                        query.src='dice-'+dice+'.png';
+                        query.src='../images/dice-'+dice+'.png';
                     
                         //add the score
                         if (dice !==1){
@@ -68,7 +68,7 @@ noDice();
             document.querySelector('#newGame').addEventListener('click',newGame);
 
 function noDice(){
-    document.querySelector('.noDice').src='dice-no.png';
+    document.querySelector('.noDice').src='../images/dice-no.png';
 }
 
 function newGame(){
